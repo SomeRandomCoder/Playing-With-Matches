@@ -2,17 +2,27 @@
 <html>
   <head>
     <title> The tittle of my page</title>
-
+    <link rel="stylesheet" href="style.css">
     <style type="text/css">
-        font-size:300px
-        color: Blue
-        background-color: yellow
     </style>
+
   </head>
 
   <body>
-      <div id = "Number">
-          7
-      </div>
+      <div id = "num"></div>
+
+      <script type="text/javascript">
+      var randomNumber = function(range){
+        return Math.floor((Math.random() * 9)+1);
+      };
+      divPrint = function(){
+        var num = document.getElementById("num");
+        num.innerHTML=randomNumber();
+      }
+      console.log (randomNumber());
+      divPrint();
+      	</script>
+
+
   </body>
 </html>
