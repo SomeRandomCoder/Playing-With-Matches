@@ -1,7 +1,35 @@
-#num {
+#num1 {
   color: blue;
   background-color: yellow;
-  font-size: 300px;
+  font-size: 100px;
   float: centre;
-  width: 100%;
+  width: 30%;
+  height: 20%
+  border: inline-block;
+
+}
+#num2 {
+  color: blue;
+  background-color: yellow;
+  font-size: 100px;
+  float: centre;
+  width: 30%;
+  height:20%
+  border: inline-block;
+}
+#num3 {
+  color: blue;
+  background-color: yellow;
+  font-size: 100px;
+  float: centre;
+  width: 30%;
+  height:20%
+  border: inline-block;
+}
+#row1{
+float: left;
+width: 30%;
+height: 20%;
+text-align: center;
+
 }
