@@ -1,4 +1,30 @@
-#num1 {
+.number{
+  color: blue;
+  background-color: yellow;
+  font-size: 100px;
+  float: centre;
+  width: 30%;
+  height: 20%;
+  border: 2px solid black;
+  text-align: center;
+  display: inline-block;
+margin-top: 3px;
+
+}
+
+.col1{
+  width: 30%;
+
+  }
+.col2{
+  width: 30%;
+
+}
+.col3{
+  width: 30%;
+}
+
+/*#num1 {
   color: blue;
   background-color: yellow;
   font-size: 100px;
@@ -33,3 +59,4 @@ height: 20%;
 text-align: center;
 
 }
+*/
