@@ -24,6 +24,19 @@ margin-top: 3px;
   width: 30%;
 }
 
+.highLight{
+  background-color: green;
+  color: Red;
+  font-size: 100px;
+  float: centre;
+  width: 30%;
+  height: 20%;
+  border: 2px solid black;
+  text-align: center;
+  display: inline-block;
+margin-top: 3px;
+}
+
 /*#num1 {
   color: blue;
   background-color: yellow;
@@ -53,7 +66,7 @@ margin-top: 3px;
   border: inline-block;
 }
 #row1{
-float: left;
+
 width: 30%;
 height: 20%;
 text-align: center;
