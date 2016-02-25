@@ -142,22 +142,19 @@ var row1 = new function(){
       displayMessage.innerHTML = "Block 2 and Block 3 match!";
     }
     if (num1.innerHTML === num2.innerHTML && num1.innerHTML === num3.innerHTML && num2.innerHTML === num3.innerHTML){
-      displayMessage.innerHTML = "Block 1 , Block 2 and Block 3 match!";
+      displayMessage.innerHTML = "Block 1 , Block 2 and NUmber 3 match!";
     }
 };
 
 var row2 = new function(){
     if(num4.innerHTML === num5.innerHTML){
-      displayMessage.innerHTML = "Block 4 and Block 5 match!";
+      displayMessage.innerHTML = "Number 4 and Number 5 match!";
     }
 
     if (num4.innerHTML === num6.innerHTML){
-      displayMessage.innerHTML ="Block 4 and Block 6 ";
+      displayMessage.innerHTML ="Block 4 and Block 6 "
     }
 }
-
-
-
 // var row1 =new function(){
 //
 //   if(num1.innerHTML === num2.innerHTML){
