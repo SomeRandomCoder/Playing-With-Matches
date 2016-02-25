@@ -12,6 +12,7 @@ var num6 = document.getElementById("num6");
 var num7 = document.getElementById("num7");
 var num8 = document.getElementById("num8");
 var num9 = document.getElementById("num9");
+var numbers = document.querySelector("number")
 
 divPrintR1 = function(){
 
@@ -37,3 +38,50 @@ console.log (randomNumber());
 divPrintR1();
 divPrintR2();
 divPrintR3();
+// num1.classList.add('highLight');
+// num2.classList.add('highLight');
+// num3.classList.add('highLight');
+// num4.classList.add('highLight');
+// num5.classList.add('highLight');
+// num6.classList.add('highLight');
+// num7.classList.add('highLight');
+// num8.classList.add('highLight');
+// num9.classList.add('highLight');
+
+function highLight(){
+  var displayMessage = document.getElementById("displayMessage");
+if (num1.innerHTML === num2.innerHTML){
+num1.classList.add("highLight");
+num2.classList.add("highLight");
+displayMessage.innerHTML = "Number 1 and Number 2 match!";
+}
+
+if(num1.innerHTML === num3.innerHTML){
+  num1.classList.add("highLight");
+  num3.classList.add("highLight");
+  displayMessage.innerHTML ="Number 1 and Number 3 match!";
+}
+
+if(num2.innerHTML === num3.innerHTML){
+  num2.classList.add("highLight");
+  num3.classList.add("highLight");
+  displayMessage.innerHTML = "Number 2 and Number 3 match!";
+}
+if (num1.innerHTML===num2.innerHTML && num1.innerHTML===num3.innerHTML && num2.innerHTML===num3.innerHTML){
+  num1.classList.add("highLight");
+  num2.classList.add("highLight");
+  num3.classList.add("highLight");
+  displayMessage.innerHTML = "Number 1, Number 2 and Number 3 matches!";
+}
+if(num1.innerHTML === num4.innerHTML){
+  num1.classList.add("highLight");
+  num4.classList.add("highLight");
+  displayMessage.innerHTML ="Number 1 and Number 4 matches!";
+}
+
+};
+
+
+
+highLight();
+displayMessage();

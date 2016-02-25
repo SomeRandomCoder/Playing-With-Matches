@@ -37,39 +37,13 @@ margin-top: 3px;
 margin-top: 3px;
 }
 
-/*#num1 {
-  color: blue;
-  background-color: yellow;
-  font-size: 100px;
-  float: centre;
-  width: 30%;
-  height: 20%
-  border: inline-block;
-
-}
-#num2 {
-  color: blue;
-  background-color: yellow;
-  font-size: 100px;
-  float: centre;
-  width: 30%;
-  height:20%
-  border: inline-block;
-}
-#num3 {
-  color: blue;
-  background-color: yellow;
-  font-size: 100px;
-  float: centre;
-  width: 30%;
-  height:20%
-  border: inline-block;
-}
-#row1{
-
-width: 30%;
-height: 20%;
+#displayMessage{
+width:28.4%;
+height: 50px;
+border: solid black 2px;
+background-color: black;
+color: white;
+margin-top: 3px;
 text-align: center;
-
+line-height: auto;
 }
-*/
