@@ -8,7 +8,7 @@
   border: 2px solid black;
   text-align: center;
   display: inline-block;
-margin-top: 3px;
+  margin-top: 3px;
 
 }
 
@@ -36,12 +36,128 @@ margin-top: 3px;
   display: inline-block;
 margin-top: 3px;
 }
+.highLight2{
+  background-color: blue;
+  color: Red;
+  font-size: 100px;
+  float: centre;
+  width: 30%;
+  height: 20%;
+  border: 2px solid black;
+  text-align: center;
+  display: inline-block;
+margin-top: 3px;
+}
+.highLight3{
+  background-color: orange;
+  color: Red;
+  font-size: 100px;
+  float: centre;
+  width: 30%;
+  height: 20%;
+  border: 2px solid black;
+  text-align: center;
+  display: inline-block;
+margin-top: 3px;
+}
+#Display-div{
+  width: 300px;
+  margin: 10px;
+  display:inline-block;
+}
+#Display-div2{
+  width: 300px;
+  margin:10px;
+  display:inline-block;
+  padding-top:2px;
+}
 
-#displayMessage{
+#Display-div3{
+  width: 300px;
+  margin:10px;
+  display:inline-block;
+  padding-top:2px;
+}
+
+#displayMessageRow1{
+width:300px;
+height: 70px;
+border: solid black 2px;
+background-color: blue;
+color: white;
+margin-top: 3px;
+text-align: center;
+line-height: auto;
+
+
+}
+#displayMessageRow2{
+  width:300px;
+  height: 70px;
+  border: solid black 2px;
+  background-color: blue;
+  color: white;
+  margin-top: 3px;
+  text-align: center;
+  line-height: auto;
+
+}
+
+#displayMessageCol1{
+width:300px;
+height: 70px;
+border: solid black 2px;
+background-color: blue;
+color: white;
+margin-top: 3px;
+text-align: center;
+line-height: auto;
+float:left;
+
+}
+#displayMessageCol2{
+  width:300px;
+  height: 70px;
+  border: solid black 2px;
+  background-color: blue;
+  color: white;
+  margin-top: 3px;
+  text-align: center;
+  line-height: auto;
+  float:left;
+
+}
+
+#displayMessageRow3{
+  width:300px;
+  height: 70px;
+  border: solid black 2px;
+  background-color: blue;
+  color: white;
+  margin-top: 3px;
+  text-align: center;
+  line-height: auto;
+
+}
+
+#displayMessageCol3{
+width:300px;
+height: 70px;
+border: solid black 2px;
+background-color: blue;
+color: white;
+margin-top: 3px;
+text-align: center;
+line-height: auto;
+float:left;
+
+}
+
+/*#displayMessageDiag{
 width:28.4%;
 height: 50px;
 border: solid black 2px;
-background-color: black;
+background-color: blue;
 color: white;
 margin-top: 3px;
 text-align: center;

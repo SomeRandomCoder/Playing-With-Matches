@@ -10,7 +10,7 @@
 
   <body>
       <!-- <div id = "num"></div> -->
-
+<div
       <div id ="row1" class="col1">
         <div id="num1" class= "number" ></div>
         <div id="num2" class= "number"></div>
@@ -28,8 +28,35 @@
         <div id="num8" class= "number"></div>
         <div id="num9" class= "number"></div>
       </div>
+<div id="Display-div">
+      <p>Row 1:</p>
+      <div id= "displayMessageRow1"></div>
+      <p>Column 1</p>
+  <div id= "displayMessageCol1"></div>
+</div>
 
-      <div id= "displayMessage"></div>
+<div id="Display-div2">
+      <p>Row 2:</p>
+      <div id= "displayMessageRow2"></div>
+      <p>Column 2</p>
+  <div id= "displayMessageCol2"></div>
+</div>
+
+<div id="Display-div3">
+      <p>Row 3:</p>
+      <div id= "displayMessageRow3"></div>
+      <p>Column 3:</p>
+  <div id= "displayMessageCol3"></div>
+</div>
+
+<!-- <button type="button" id="Refresh" onclick="numX()" >Refresh</button>
+<button type="button" id="HighLight" onclick="highLight()" >HighLight</button> -->
+
+      <script>
+      function refreshPage(){
+        windows.location.reload();
+      }
+      </script>
 
       <script type="text/javascript"></script>
       <script type="text/javascript" src="script.js"></script>
