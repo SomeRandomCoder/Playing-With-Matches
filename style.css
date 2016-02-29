@@ -78,6 +78,13 @@ margin-top: 3px;
   display:inline-block;
   padding-top:2px;
 }
+#Display-div4{
+  width: 300px;
+  height: 100px;
+  margin:10px;
+  display:inline-block;
+  padding-top:2px;
+}
 
 #displayMessageRow1{
 width:300px;
@@ -150,6 +157,19 @@ margin-top: 3px;
 text-align: center;
 line-height: auto;
 float:left;
+
+}
+
+#displayMessageDiagonal{
+  width:300px;
+  height: 70px;
+  border: solid black 2px;
+  background-color: blue;
+  color: white;
+  margin-top: 3px;
+  text-align: center;
+  line-height: auto;
+  margin-bottom: 50%;
 
 }
 
