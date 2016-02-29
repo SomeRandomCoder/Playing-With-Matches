@@ -181,15 +181,15 @@ function highLight(){
       }
   if(num1.innerHTML === num2.innerHTML){
 
-    displayMessageRow1.innerHTML = "Block 1 and Block 2 match! There are only two matching blocks.";
+    displayMessageRow1.innerHTML = "Block 1 and Block 2 match! There are only two matching blocks!";
   }
  if (num1.innerHTML === num3.innerHTML){
 
-    displayMessageRow1.innerHTML ="Block 1 and Block 3 match! There are only two matching blocks.";
+    displayMessageRow1.innerHTML ="Block 1 and Block 3 match! There are only two matching blocks!";
   }
     if(num2.innerHTML === num3.innerHTML){
 
-    displayMessageRow1.innerHTML = "Block 2 and Block 3 match! There are only two matching blocks.";
+    displayMessageRow1.innerHTML = "Block 2 and Block 3 match! There are only two matching blocks!";
   }
     if(num1.innerHTML === num2.innerHTML && num2.innerHTML === num3.innerHTML && num1.innerHTML === num3.innerHTML){
 
@@ -246,15 +246,15 @@ function highLight(){
       }
         if(num4.innerHTML === num5.innerHTML)
            {
-             displayMessageRow2.innerHTML = "Block 4 and Block 5 match! There are only two matching blocks.";
+             displayMessageRow2.innerHTML = "Block 4 and Block 5 match! There are only two matching blocks!";
            }
        if (num4.innerHTML === num6.innerHTML)
            {
-             displayMessageRow2.innerHTML ="Block 4 and Block 6 match! There are only two matching blocks.";
+             displayMessageRow2.innerHTML ="Block 4 and Block 6 match! There are only two matching blocks!";
            }
           if(num5.innerHTML === num6.innerHTML)
            {
-             displayMessageRow2.innerHTML = "Block 5 and Block 6 match! There are only two matching blocks.";
+             displayMessageRow2.innerHTML = "Block 5 and Block 6 match! There are only two matching blocks!";
            }
           if(num4.innerHTML === num5.innerHTML && num4.innerHTML === num6.innerHTML && num5.innerHTML === num6.innerHTML)
            {
@@ -310,15 +310,15 @@ function highLight(){
           }
   if(num7.innerHTML === num8.innerHTML)
      {
-       displayMessageRow3.innerHTML = "Block 7 and Block 8 match! There are only two matching blocks.";
+       displayMessageRow3.innerHTML = "Block 7 and Block 8 match!There are only two matching blocks!";
      }
     if (num7.innerHTML === num9.innerHTML)
      {
-       displayMessageRow3.innerHTML ="Block 7 and Block 9 match! There are only two matching blocks.";
+       displayMessageRow3.innerHTML ="Block 7 and Block 9 match! There are only two matching blocks!";
      }
     if(num8.innerHTML === num9.innerHTML)
      {
-       displayMessageRow3.innerHTML = "Block 8 and Block 9 match! There are only two matching blocks.";
+       displayMessageRow3.innerHTML = "Block 8 and Block 9 match! There are only two matching blocks!";
      }
     if(num7.innerHTML === num8.innerHTML && num8.innerHTML === num9.innerHTML && num7.innerHTML === num9.innerHTML)
      {
@@ -368,15 +368,15 @@ function highLight(){
    }
  if(num1.innerHTML === num4.innerHTML)
    {
-    displayMessageCol1.innerHTML = "Block 1 and Block 4 match!There are two matches!";
+    displayMessageCol1.innerHTML = "Block 1 and Block 4 match!There are only two matching blocks!";
    }
  if (num1.innerHTML === num7.innerHTML)
    {
-    displayMessageCol1.innerHTML ="Block 1 and Block 7 match!There are two matches!";
+    displayMessageCol1.innerHTML ="Block 1 and Block 7 match!There are only two matching blocks!";
    }
   if(num4.innerHTML === num7.innerHTML)
  {
-   displayMessageCol1.innerHTML = "Block 4 and Block 7 match!There are two matches!";
+   displayMessageCol1.innerHTML = "Block 4 and Block 7 match!There are only two matching blocks!";
  }
  if(num1.innerHTML === num4.innerHTML && num4.innerHTML === num7.innerHTML && num1.innerHTML === num7.innerHTML)
  {
@@ -391,15 +391,15 @@ function highLight(){
 
  if(num2.innerHTML === num5.innerHTML)
    {
-      displayMessageCol2.innerHTML="Block2 and Block 5 match!THere are two matches!";
+      displayMessageCol2.innerHTML="Block2 and Block 5 match!There are only two matching blocks!";
    }
  if (num2.innerHTML === num8.innerHTML)
    {
-      displayMessageCol2.innerHTML="Block2 and Block 8 match!THere are two matches!";
+      displayMessageCol2.innerHTML="Block2 and Block 8 match!There are only two matching blocks!";
    }
  if(num5.innerHTML === num8.innerHTML)
    {
-    displayMessageCol2.innerHTML="Block 5 and Block 8 match!THere are two matches!";
+    displayMessageCol2.innerHTML="Block 5 and Block 8 match!There are only two matching blocks!";
    }
  if(num2.innerHTML === num5.innerHTML && num5.innerHTML === num8.innerHTML && num2.innerHTML === num8.innerHTML)
    {
@@ -444,13 +444,13 @@ var col3 = new function(){
     num9.classList.add("highLight3");
   }
   if(num3.innerHTML === num6.innerHTML){
-    displayMessageCol3.innerHTML = "Block 3 and Block 6 match! There are only two matches!";
+    displayMessageCol3.innerHTML = "Block 3 and Block 6 match! There are only two matching blocks!";
   }
   if (num3.innerHTML === num9.innerHTML){
-      displayMessageCol3.innerHTML = "Block 3 and Block 9 match!";
+      displayMessageCol3.innerHTML = "Block 3 and Block 9 match!There are only two matching blocks!";
   }
   if(num6.innerHTML === num9.innerHTML){
-    displayMessageCol3.innerHTML = "Block 6 and Block 9 match!";
+    displayMessageCol3.innerHTML = "Block 6 and Block 9 match!There are only two matching blocks!";
   }
   if(num3.innerHTML === num6.innerHTML && num6.innerHTML === num9.innerHTML && num3.innerHTML === num9.innerHTML){
     displayMessageCol3.innerHTML ="Column 3 matches!";
@@ -547,16 +547,8 @@ var diag =new function(){
 function reload(){
   location.reload(false);
 }
-
-function removeHighLight(){
-  classList.remove("HighLight");
-  classList.remove("highLight2");
-  classList.remove("highLight3");
-};
      function button2(){
        var button2=document.getElementById("Refresh");
-
-      // removeHighLight();
       numX();
       reload();
      };
@@ -564,8 +556,6 @@ function removeHighLight(){
        var button = document.getElementById("HighLight");
          highLight();
           };
-
-
 
      var El=document.getElementById("Refresh");
      El.addEventListener("click", button, true);
